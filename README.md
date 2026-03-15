@@ -9,6 +9,7 @@ Static multi-page portfolio site built with HTML, CSS, and vanilla JavaScript.
 - Work Experience
 - Skills & Tech Stack
 - Project Showcase
+- Publications
 - Contact
 
 ## Deploy

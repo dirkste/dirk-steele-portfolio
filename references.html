@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Contact page placeholder for a developer portfolio." />
-    <title>Developer Portfolio | Contact</title>
+    <meta name="description" content="Professional references with expandable full statements." />
+    <title>Technology Portfolio | References</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -63,71 +63,85 @@
       <main id="main-content" class="main-wrap">
         <section class="page-intro section">
           <div class="glass-card reveal">
-            <span class="kicker">Contact</span>
-            <h1>Keep the contact path simple, direct, and easy to act on.</h1>
+            <span class="kicker">References</span>
+            <h1>Selected references with expandable full statements.</h1>
             <p>
-              Placeholder content for email, LinkedIn, GitHub, or any other preferred contact method. The form below
-              is intentionally static until you connect it to your chosen service.
+              Each card shows a short excerpt. Click or press Enter to open the full text in a focused reading panel.
             </p>
           </div>
         </section>
 
         <section class="section">
-          <div class="contact-grid">
-            <article class="contact-card primary reveal">
-              <span class="eyebrow">Reach Out</span>
-              <h2>Use this form as the starting point.</h2>
-              <form class="contact-form" data-contact-form>
-                <div class="form-row">
-                  <label for="name">Name</label>
-                  <input id="name" name="name" type="text" placeholder="Your name" autocomplete="name" />
-                </div>
-                <div class="form-row">
-                  <label for="email">Email</label>
-                  <input id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email" />
-                </div>
-                <div class="form-row">
-                  <label for="message">Message</label>
-                  <textarea id="message" name="message" placeholder="Tell me a little about the project or conversation."></textarea>
-                </div>
-                <button class="button" type="submit">Send Placeholder Message</button>
-                <p class="form-note" data-form-status aria-live="polite">
-                  Placeholder mode: connect this form to an endpoint later.
-                </p>
-              </form>
+          <div class="references-grid">
+            <article
+              class="reference-card reveal"
+              tabindex="0"
+              role="button"
+              aria-label="Open full reference from delivery stakeholder"
+              data-reference-card
+              data-reference-title="Reference 1 - Delivery Stakeholder"
+              data-reference-full="Dirk consistently balanced quality and delivery pressure in a fast-moving program. He brought structure to testing and communication, helped our cross-functional team prioritize effectively, and made sure risks were surfaced early rather than late. His practical approach to automation improved confidence in every release and made planning conversations much more objective."
+            >
+              <span class="eyebrow">Delivery Stakeholder</span>
+              <h3>"He improved release confidence while keeping the team aligned and moving."</h3>
+              <p>
+                Partial reference excerpt describing delivery discipline, communication, and practical quality leadership.
+              </p>
+              <p class="reference-meta">Click to view full reference</p>
             </article>
 
-            <aside class="contact-card reveal">
-              <span class="eyebrow">Links</span>
-              <h3>Prefer direct links instead?</h3>
-              <ul class="metric-list">
-                <li>
-                  <strong>GitHub</strong>
-                  <p><a class="link-icon" href="https://github.com/YOUR_USERNAME" target="_blank" rel="noreferrer">https://github.com/YOUR_USERNAME</a></p>
-                </li>
-                <li>
-                  <strong>LinkedIn</strong>
-                  <p><a class="link-icon" href="https://www.linkedin.com/in/dirksteele/" target="_blank" rel="noreferrer">https://www.linkedin.com/in/dirksteele/</a></p>
-                </li>
-                <li>
-                  <strong>Email</strong>
-                  <p>placeholder.email@example.com</p>
-                </li>
-                <li>
-                  <strong>Location / Time Zone</strong>
-                  <p>Placeholder location details or availability note.</p>
-                </li>
-              </ul>
-            </aside>
+            <article
+              class="reference-card reveal"
+              tabindex="0"
+              role="button"
+              aria-label="Open full reference from engineering peer"
+              data-reference-card
+              data-reference-title="Reference 2 - Engineering Peer"
+              data-reference-full="Working with Dirk meant quality discussions were always concrete and useful. He was strong in both manual test strategy and automation design, and he could quickly identify what to automate first for the highest value. He also documented process clearly, which helped newer team members ramp faster and reduced repeated handoffs."
+            >
+              <span class="eyebrow">Engineering Peer</span>
+              <h3>"He brought clarity to test strategy and always focused on high-value automation."</h3>
+              <p>
+                Partial reference excerpt highlighting test strategy, framework quality, and team enablement.
+              </p>
+              <p class="reference-meta">Click to view full reference</p>
+            </article>
+
+            <article
+              class="reference-card reveal"
+              tabindex="0"
+              role="button"
+              aria-label="Open full reference from program leader"
+              data-reference-card
+              data-reference-title="Reference 3 - Program Leader"
+              data-reference-full="Dirk was a dependable contributor across changing priorities and complex systems. He helped us improve execution through better process, cleaner documentation, and thoughtful automation improvements. He was especially effective at turning ambiguous quality concerns into clear, testable plans that teams could execute quickly."
+            >
+              <span class="eyebrow">Program Leader</span>
+              <h3>"He turned ambiguity into executable testing plans and practical improvements."</h3>
+              <p>
+                Partial reference excerpt focused on adaptability, process design, and measurable impact.
+              </p>
+              <p class="reference-meta">Click to view full reference</p>
+            </article>
           </div>
         </section>
       </main>
 
+      <section class="reference-modal" data-reference-modal hidden aria-hidden="false">
+        <div class="reference-modal-panel" role="dialog" aria-modal="true" aria-labelledby="reference-modal-title" data-reference-backdrop>
+          <div class="reference-modal-head">
+            <h2 id="reference-modal-title" data-reference-title>Reference</h2>
+            <button class="reference-close" type="button" data-reference-close aria-label="Close reference">X</button>
+          </div>
+          <p class="reference-full-text" data-reference-full-text></p>
+        </div>
+      </section>
+
       <footer class="site-footer">
         <div class="footer-wrap">
           <div>
-            <strong>Contact Page</strong>
-            <p>Includes both a simple form pattern and a prominent GitHub profile link.</p>
+            <strong>References Page</strong>
+            <p>Short excerpts are visible up front, with full text available on demand.</p>
           </div>
           <div class="footer-meta">
             <nav class="footer-links" aria-label="Footer navigation">

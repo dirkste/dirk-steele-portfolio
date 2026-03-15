@@ -190,6 +190,62 @@ const initTilt = () => {
   });
 };
 
+const initReferences = () => {
+  const modal = document.querySelector('[data-reference-modal]');
+  const fullText = document.querySelector('[data-reference-full-text]');
+  const title = document.querySelector('[data-reference-title]');
+  const closeButton = document.querySelector('[data-reference-close]');
+  const cards = document.querySelectorAll('[data-reference-card]');
+
+  if (!modal || !fullText || !title || !closeButton || !cards.length) {
+    return;
+  }
+
+  let lastFocusedCard = null;
+
+  const closeModal = () => {
+    modal.hidden = true;
+    document.body.classList.remove('is-modal-open');
+
+    if (lastFocusedCard) {
+      lastFocusedCard.focus();
+    }
+  };
+
+  const openModal = (card) => {
+    title.textContent = card.dataset.referenceTitle || 'Reference';
+    fullText.textContent = card.dataset.referenceFull || '';
+    modal.hidden = false;
+    document.body.classList.add('is-modal-open');
+    lastFocusedCard = card;
+    closeButton.focus();
+  };
+
+  cards.forEach((card) => {
+    card.addEventListener('click', () => openModal(card));
+    card.addEventListener('keydown', (event) => {
+      if (event.key === 'Enter' || event.key === ' ') {
+        event.preventDefault();
+        openModal(card);
+      }
+    });
+  });
+
+  closeButton.addEventListener('click', closeModal);
+
+  modal.addEventListener('click', (event) => {
+    if (event.target === modal || event.target.hasAttribute('data-reference-backdrop')) {
+      closeModal();
+    }
+  });
+
+  window.addEventListener('keydown', (event) => {
+    if (!modal.hidden && event.key === 'Escape') {
+      closeModal();
+    }
+  });
+};
+
 window.addEventListener('DOMContentLoaded', () => {
   setCurrentNavLink();
   initMobileNav();
@@ -200,4 +256,5 @@ window.addEventListener('DOMContentLoaded', () => {
   initForm();
   initYear();
   initTilt();
+  initReferences();
 });
