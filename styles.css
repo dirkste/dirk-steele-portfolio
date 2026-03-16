@@ -637,6 +637,10 @@ p {
   grid-column: span 5;
 }
 
+.quote-card {
+  grid-column: span 5;
+}
+
 .highlights-grid > * {
   grid-column: span 4;
 }
