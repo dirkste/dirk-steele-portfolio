@@ -248,8 +248,12 @@ const initReferences = () => {
 
 const initAccordion = () => {
   document.querySelectorAll('.accordion-header').forEach((header) => {
+    const body = header.nextElementSibling;
+    if (!body || !body.classList.contains('accordion-body')) {
+      return;
+    }
+
     header.addEventListener('click', () => {
-      const body = header.nextElementSibling;
       const isOpen = header.getAttribute('aria-expanded') === 'true';
       header.setAttribute('aria-expanded', String(!isOpen));
       body.hidden = isOpen;

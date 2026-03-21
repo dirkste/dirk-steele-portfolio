@@ -598,7 +598,7 @@ p {
   font-weight: 600;
   font-size: 1rem;
   font-family: var(--font-body);
-  color: var(--text-primary);
+  color: var(--text);
   background: transparent;
   border: none;
   cursor: pointer;
@@ -628,7 +628,7 @@ p {
 
 .accordion-body p {
   margin: 0;
-  color: var(--text-secondary);
+  color: var(--muted);
   font-size: 0.95rem;
   line-height: 1.6;
   animation: accordion-fade 0.25s ease;
@@ -637,6 +637,13 @@ p {
 @keyframes accordion-fade {
   from { opacity: 0; transform: translateY(-6px); }
   to   { opacity: 1; transform: translateY(0); }
+}
+
+.button-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
 }
 
 .metric-list strong,
@@ -970,7 +977,7 @@ textarea {
   font-size: clamp(1rem, 2vw, 1.6rem);
 }
 
-.section h2 {
+.section-heading h2 {
   font-size: clamp(1rem, 2vw, 1.6rem);
 }
 
@@ -1166,7 +1173,7 @@ body.is-modal-open {
 
   .section,
   .hero {
-    padding: 3.8rem 0;
+    padding: 2rem 0;
   }
 
   .hero-panel,
