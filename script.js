@@ -246,6 +246,21 @@ const initReferences = () => {
   });
 };
 
+const initAccordion = () => {
+  document.querySelectorAll('.accordion-header').forEach((header) => {
+    const body = header.nextElementSibling;
+    if (!body || !body.classList.contains('accordion-body')) {
+      return;
+    }
+
+    header.addEventListener('click', () => {
+      const isOpen = header.getAttribute('aria-expanded') === 'true';
+      header.setAttribute('aria-expanded', String(!isOpen));
+      body.hidden = isOpen;
+    });
+  });
+};
+
 window.addEventListener('DOMContentLoaded', () => {
   setCurrentNavLink();
   initMobileNav();
@@ -257,4 +272,5 @@ window.addEventListener('DOMContentLoaded', () => {
   initYear();
   initTilt();
   initReferences();
+  initAccordion();
 });
