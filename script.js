@@ -88,6 +88,12 @@ const initPageTransitions = () => {
     return;
   }
 
+  window.addEventListener('pageshow', (event) => {
+    if (event.persisted) {
+      document.body.classList.remove('is-transitioning');
+    }
+  });
+
   const internalLinks = document.querySelectorAll('a[href]');
 
   internalLinks.forEach((link) => {
