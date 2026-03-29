@@ -183,7 +183,8 @@ const initTilt = () => {
       const rotateY = percentX * 8;
       const rotateX = percentY * -8;
       const base = card.classList.contains('core-panel') ? 'translate(-50%, -50%) ' : '';
-      card.style.transform = `${base}perspective(1200px) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
+      const lift = card.classList.contains('core-panel') ? '' : ' translateY(-4px)';
+      card.style.transform = `${base}perspective(1200px) rotateX(${rotateX}deg) rotateY(${rotateY}deg)${lift}`;
     });
 
     card.addEventListener('pointerleave', reset);
