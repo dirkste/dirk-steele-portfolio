@@ -1,0 +1,170 @@
+ 
+…Continued… 
+ 
+DIRK STEELE  
+4087  Hunt Way Rex,  Georgia 30 273  
+253. 334 . 6475  dirkst e @ho t mail. co m  
+ 
+ BUSINESS ANALYSIST / QUALITY ASSURANCE  
+ 
+Certified SCRUM Master and Microsoft Certified Professional  
+Solution-oriented professional with a dedicated career of more than 15-years of executing testing strategies to enhance the 
+quality delivery of multi-tiered systems, interfaces, databases, and portals across Agile development environments. 
+ Strength in defining automated and manual testing strategies and scenarios to validate functionality and enable the 
+capture and resolution of critical defects. 
+ Skilled in developing and integrating automated testing tools  into testing environments to strengthen the 
+identification of key bugs across user interfaces, middle-tier, and database layers. 
+ Extensive expertise in developing test automation software tools for functional, system  and integration testing 
+leveraging web forms across User Interface Framework. 
+ Outstanding communication and liaison skills; proven by effective interaction with management, customers, 
+vendors, and teams. 
+Technology Experience 
+Testing Tools: SpecFlow, Postman, Selenium, Azure DevOps, Azure 
+build/release Pipelines, Git 
+Languages & Software: C# 9.0, Selenium, SQL and Salesforce 
+Operating Systems: MS Windows 11  
+ 
+ 
+ 
+ PROFESSIONAL EXPERIENCE  
+ 
+ 
+ 
+ 
+Zillion Atlanta, GA • 06/2023 - Present 
+Insurance Commissioner of the State of Georgia 
+Led a cross-functional Agile team composed of software engineers, business analysts, and QA testers, collaborating closely 
+with stakeholders to ensure high-quality software solutions for the Georgia Department of Insurance. The team operated 
+within an Azure DevOps environment, leveraging automation tools and best practices to enhance software delivery and 
+reliability. 
+ 
+Successes & Achievements: 
+ Create all the new documentation to support the entire team. 
+ Designed, established and managed the customer support team 
+ Designed and implemented a project management process. 
+ Designed and implemented the groups UI automation framework 
+ Implemented a software CI/CD pipeline for the automation 
+ Created all the application help video 
+ 
+ 
+ 
+Mindtree Atlanta, GA • 12/2022- 06/2023 
+CSIWeb.com 
+Brought on to provide onshore test lead experience for a complex, multi-tiered, backend banking application.   
+ 
+Successes & Achievements: 
+ Developed a new communication model for sharing all onshore knowledge with the offshore team.  
+
+DIRK W. STEELE Page Two 
+ 
+ 
+ Organize the offshore team into skill-based units that allow them to focus on specific areas. 
+ 
+Precision Atlanta, GA • 04/2022- 11/2022 
+Progressive.com 
+Retained in to improve existing automation. During the first two weeks was able to review existing practice and provide a clear 
+and prioritized list of improvement opportunities.  The management selected two specific recommendations as my priorities.  
+The selected projects were presented for review four weeks later. 
+Successes & Achievements: 
+ Presented to management a list of five key areas of improvement that would improve test effectiveness. 
+ Created and integrated a test data collection tool into the teams exists tests that saved 500 hours each year. 
+ Implemented improvements that resulted in 50% faster test execution times across multiple applications. 
+ 
+ 
+AIM Consulting Renton, WA • 08/2021- 04/2022 
+BECU.ORG 
+Served as both man ual and automated test engineer, spending about 50% of the time on test case development and 
+maintenance and 50% on API/UI test automation.   
+Successes & Achievements: 
+ Identified and correct root cause for more than 34 failing automated UI test scripts. 
+ Regularly execute full automation regression test passes 
+ Document new and update existing test cases. 
+ 
+ 
+ 
+AIM Consulting Redmond, WA • 01/2020- 02/2021 
+Starbucks 
+Developed order label validation for a new order sequencing feature  that allowed Starbucks to implement a Just -In-Time 
+product delivery process. 
+Successes & Achievements: 
+ Design and implement an automation routine, using C#, that would confirm the correct transaction sequencing. 
+ Executed daily automated and manual test passes before providing detailed results Analysis to management. 
+ 
+ 
+ 
+AIM Consulting Redmond, WA • 12/2017- 06/2019 
+Microsoft Research SDET 
+Developed, the automation web UI test framework using Azure build and release pipelines that utilizes a headless b rowser 
+feature and that is automatically executed with each new pull request.  Developing and executing comprehensive suites of 
+automation test cases. 
+Successes & Achievements: 
+ Quickly developing a new, full featured UI automation framework 
+ Implementing a silent and headless UI automation suite of tests 
+ 
+ 
+
+DIRK W. STEELE Page Three 
+ 
+ 
+Aim Consulting Monte Lake, WA • 05/2017- 11/2017 
+Premera Blue Cross 
+A member of the Premera Blue Cross Account Creation team that owned all aspects of the QA process, ensuring that the 
+monthly releases occurred with significantly lower defect rates due to specific and new QA processes put in place.  Added both 
+WCF and RESTful web service automation to the automated test process. 
+ 
+Successes & Achievements: 
+ Documented and executed many of the accounts create test cases. 
+ Developed Behavior Driven automated test cases used by key stakeholders. 
+ Establish traceability by managing all test cases in MTM.  
+ 
+ 
+AIM Consulting Seattle, WA • 12/2015- 7/2016 
+Starbucks SDET 
+Responsible for developing an automation framework, using Visual Studio and TFS, that would be used by other members of 
+the testing organization.  Developing and executing comprehensive suites of automation test cases.  
+Successes & Achievements: 
+ Quickly developing a new, full featured UI automation framework 
+ Developed BVT suite of automated test cases. 
+ Successfully integrated automated test cases with the TFS Build process.  
+ 
+AIM Consulting Bellevue, WA • 4/2015- 11/2015 
+VisualOne Test Lead 
+Leading a team of manual and automated test engineers through three successful releases.   
+Successes & Achievements: 
+ Worked with all stakeholders to move from a waterfall process to an agile development process.  
+ Created the first all up weekly test status. 
+ 
+RAMPGROUP Redmond, WA • 05/2013-4/2015 
+Microsoft Store E2E Test Lead 
+Directing a highly experienced, international team and working with key stakeholders as well as other internal Microsoft and 
+external Microsoft partners to ensure E2E testing is successfully completed for an international ecommerce platform.  Includes 
+testing key systems both inside and outside corporate control.   
+Successes & Achievements: 
+ Designed and developed the test framework for the UI Automation utilizing Selenium II(WebDriver) 
+ Design and implemented test plans for over 20 E2E test projects that resulted in increased test improvements. 
+ Establish an effective process for managing all offshore resources that provide clear team priorities and assignments. 
+ 
+ 
+ 
+ 
+UNITED STATES MARINE CORPS United States  
+E-3 LANCE CORPORAL 
+ 
+ 
+ 
+ Education & Credentials  
+ 
+ 
+ 
+ 
+ 
+
+DIRK W. STEELE Page Two 
+ 
+ 
+GREEN RIVER COMMUNITY COLLEGE – Auburn, WA  
+Associates of Arts 
+ 
+Certifications 
+SCRUM Master Certification • Microsoft Certified Professional (MCP) • CompTIA A+ Certification 
+ 
