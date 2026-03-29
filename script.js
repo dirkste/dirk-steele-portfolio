@@ -173,7 +173,7 @@ const initTilt = () => {
 
   document.querySelectorAll('[data-tilt]').forEach((card) => {
     const reset = () => {
-      card.style.transform = '';
+      card.style.transform = card.classList.contains('core-panel') ? 'translate(-50%, -50%)' : '';
     };
 
     card.addEventListener('pointermove', (event) => {
@@ -182,7 +182,9 @@ const initTilt = () => {
       const percentY = (event.clientY - rect.top) / rect.height - 0.5;
       const rotateY = percentX * 8;
       const rotateX = percentY * -8;
-      card.style.transform = `perspective(1200px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-4px)`;
+      const base = card.classList.contains('core-panel') ? 'translate(-50%, -50%) ' : '';
+      const lift = card.classList.contains('core-panel') ? '' : ' translateY(-4px)';
+      card.style.transform = `${base}perspective(1200px) rotateX(${rotateX}deg) rotateY(${rotateY}deg)${lift}`;
     });
 
     card.addEventListener('pointerleave', reset);
